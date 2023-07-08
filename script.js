@@ -13,7 +13,7 @@ var vidHeight = 0;
 var xStart = 0;
 var yStart = 0;
 var areaMarked = false;
-const vinRegex = /^[A-Z0-9]{17}$/i;
+const vinRegex = /^[A-HJ-NPR-Za-hj-npr-z\d]{8}[\dX][A-HJ-NPR-Za-hj-npr-z\d]{2}\d{6}$;
 const scans = new Map();
 
 
